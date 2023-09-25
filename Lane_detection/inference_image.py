@@ -55,21 +55,23 @@ model.roi_heads.box_predictor.cls_score = nn.Linear(in_features=1024, out_featur
 model.roi_heads.box_predictor.bbox_pred = nn.Linear(in_features=1024, out_features=len(class_names)*4, bias=True)
 model.roi_heads.mask_predictor.mask_fcn_logits = nn.Conv2d(256, len(class_names), kernel_size=(1, 1), stride=(1, 1))
 
-# initialize the model
-ckpt = torch.load(args.weights)
-model.load_state_dict(ckpt['model'])
 # set the computation device
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+# initialize the model
+ckpt = torch.load(args.weights, map_location=device)
+model.load_state_dict(ckpt['model'])
 # load the modle on to the computation device and set to eval mode
 model.to(device).eval()
-print(model)
+# print(model)
 
 # transform to convert the image to tensor
 transform = transforms.Compose([
     transforms.ToTensor()
 ])
 
-image_paths = glob.glob(os.path.join(args.input, '*.jpg'))
+# image_paths = glob.glob(os.path.join(args.input, '*.jpg'))
+image_paths = glob.glob(args.input)
+
 for image_path in image_paths:
     print(image_path)
     image = Image.open(image_path)
@@ -86,10 +88,12 @@ for image_path in image_paths:
     result = draw_segmentation_map(orig_image, masks, boxes, labels, args)
     
     # visualize the image
-    if args.show:
-        cv2.imshow('Segmented image', np.array(result))
-        cv2.waitKey(1)
+    # if args.show:
+    #     cv2.imshow('Segmented image', np.array(result))
+    #     cv2.waitKey(1)
     
     # set the save path
-    save_path = f"{OUT_DIR}/{image_path.split(os.path.sep)[-1].split('.')[0]}.jpg"
+    file_name = os.path.splitext(os.path.basename(image_path))[0]
+    save_path = f"{OUT_DIR}/{file_name}.jpg"
     cv2.imwrite(save_path, result)
+    print(f"Saved to {save_path}")
