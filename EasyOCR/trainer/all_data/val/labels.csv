@@ -1,102 +1,101 @@
-﻿filename;words
-C:\Users\dsash\Repository\TableExtraction\table_extraction\ocr_dataset\val\000001.jpg;Operation
-C:\Users\dsash\Repository\TableExtraction\table_extraction\ocr_dataset\val\000009.jpg;FastTransfer upload  
-C:\Users\dsash\Repository\TableExtraction\table_extraction\ocr_dataset\val\000011.jpg;
-C:\Users\dsash\Repository\TableExtraction\table_extraction\ocr_dataset\val\000015.jpg;RopFastTransfer - SourceGetBuffe Mailbox data encoded into a FastTransfer stream
-C:\Users\dsash\Repository\TableExtraction\table_extraction\ocr_dataset\val\000016.jpg;RopSynchronization - GetState RopFastTransfer - SourceGetBuffe  Final ICS state is downloaded as a part of data transmission
-C:\Users\dsash\Repository\TableExtraction\table_extraction\ocr_dataset\val\000032.jpg;MUST NOT ne passed to any ROP other then RoipFastTransferSourceCopyMassages and RopFastTrasferSourceCopyFolder. By setting this flag, message and change identification information is not removed from output
-C:\Users\dsash\Repository\TableExtraction\table_extraction\ocr_dataset\val\000036.jpg;0x00002000
-C:\Users\dsash\Repository\TableExtraction\table_extraction\ocr_dataset\val\000037.jpg;This flag is ignored by any ROPs other then RopFastTransferSourceCopyTo if InpytSreverObject is a message RopFastTransferSourceCopyMessage If set, the server SHOULD output message bodies in their original format.
-"If not set, the server MUST output message bodies in the compressed RTF format.""";
-C:\Users\dsash\Repository\TableExtraction\table_extraction\ocr_dataset\val\000067.jpg;14
-C:\Users\dsash\Repository\TableExtraction\table_extraction\ocr_dataset\val\000070.jpg;cSetrials
-C:\Users\dsash\Repository\TableExtraction\table_extraction\ocr_dataset\val\000078.jpg;4
-C:\Users\dsash\Repository\TableExtraction\table_extraction\ocr_dataset\val\000090.jpg;SegmentHashofData
-C:\Users\dsash\Repository\TableExtraction\table_extraction\ocr_dataset\val\000101.jpg;2
-C:\Users\dsash\Repository\TableExtraction\table_extraction\ocr_dataset\val\000104.jpg;BYTE[]
-C:\Users\dsash\Repository\TableExtraction\table_extraction\ocr_dataset\val\000105.jpg;block hash
-C:\Users\dsash\Repository\TableExtraction\table_extraction\ocr_dataset\val\000110.jpg;block hash
-C:\Users\dsash\Repository\TableExtraction\table_extraction\ocr_dataset\val\000112.jpg;Offset 0 2 6 10 14 18 26 30 34 34 66 98 106 110 114
-C:\Users\dsash\Repository\TableExtraction\table_extraction\ocr_dataset\val\000123.jpg;0x800C
-C:\Users\dsash\Repository\TableExtraction\table_extraction\ocr_dataset\val\000126.jpg;DWORD
-C:\Users\dsash\Repository\TableExtraction\table_extraction\ocr_dataset\val\000128.jpg;0
-C:\Users\dsash\Repository\TableExtraction\table_extraction\ocr_dataset\val\000135.jpg;cSegments
-C:\Users\dsash\Repository\TableExtraction\table_extraction\ocr_dataset\val\000136.jpg;4
-C:\Users\dsash\Repository\TableExtraction\table_extraction\ocr_dataset\val\000137.jpg;8
-C:\Users\dsash\Repository\TableExtraction\table_extraction\ocr_dataset\val\000139.jpg;illOffsetInContent
-C:\Users\dsash\Repository\TableExtraction\table_extraction\ocr_dataset\val\000140.jpg;0
-C:\Users\dsash\Repository\TableExtraction\table_extraction\ocr_dataset\val\000144.jpg;0x2000000
-C:\Users\dsash\Repository\TableExtraction\table_extraction\ocr_dataset\val\000146.jpg;DWORD
-C:\Users\dsash\Repository\TableExtraction\table_extraction\ocr_dataset\val\000170.jpg;BYTE[]
-C:\Users\dsash\Repository\TableExtraction\table_extraction\ocr_dataset\val\000172.jpg;
-C:\Users\dsash\Repository\TableExtraction\table_extraction\ocr_dataset\val\000173.jpg;
-C:\Users\dsash\Repository\TableExtraction\table_extraction\ocr_dataset\val\000176.jpg;134
-C:\Users\dsash\Repository\TableExtraction\table_extraction\ocr_dataset\val\000177.jpg;SHA-256 hush of the all 512
-C:\Users\dsash\Repository\TableExtraction\table_extraction\ocr_dataset\val\000182.jpg;Offset 0 2 6 10 14 18 26 30 34 34 66 98 106 110 114
-C:\Users\dsash\Repository\TableExtraction\table_extraction\ocr_dataset\val\000185.jpg;Name
-C:\Users\dsash\Repository\TableExtraction\table_extraction\ocr_dataset\val\000187.jpg;0
-C:\Users\dsash\Repository\TableExtraction\table_extraction\ocr_dataset\val\000198.jpg;1
-C:\Users\dsash\Repository\TableExtraction\table_extraction\ocr_dataset\val\000203.jpg;8
-C:\Users\dsash\Repository\TableExtraction\table_extraction\ocr_dataset\val\000208.jpg;8
-C:\Users\dsash\Repository\TableExtraction\table_extraction\ocr_dataset\val\000213.jpg;4
-C:\Users\dsash\Repository\TableExtraction\table_extraction\ocr_dataset\val\000216.jpg;0x0000000
-C:\Users\dsash\Repository\TableExtraction\table_extraction\ocr_dataset\val\000225.jpg;dChunkType
-C:\Users\dsash\Repository\TableExtraction\table_extraction\ocr_dataset\val\000226.jpg;0x00
-C:\Users\dsash\Repository\TableExtraction\table_extraction\ocr_dataset\val\000229.jpg;DWORD
-C:\Users\dsash\Repository\TableExtraction\table_extraction\ocr_dataset\val\000231.jpg;0xCC
-C:\Users\dsash\Repository\TableExtraction\table_extraction\ocr_dataset\val\000235.jpg;block hash
-C:\Users\dsash\Repository\TableExtraction\table_extraction\ocr_dataset\val\000244.jpg;BYTE[]
-C:\Users\dsash\Repository\TableExtraction\table_extraction\ocr_dataset\val\000246.jpg;SHA-256 hash of bytes 0x6000000 through of the content.
-C:\Users\dsash\Repository\TableExtraction\table_extraction\ocr_dataset\val\000250.jpg;
-C:\Users\dsash\Repository\TableExtraction\table_extraction\ocr_dataset\val\000262.jpg;6.0
-C:\Users\dsash\Repository\TableExtraction\table_extraction\ocr_dataset\val\000267.jpg;No changes to the meaning, language, or formatting of the technical content.
-C:\Users\dsash\Repository\TableExtraction\table_extraction\ocr_dataset\val\000273.jpg;Кате- гория
-C:\Users\dsash\Repository\TableExtraction\table_extraction\ocr_dataset\val\000274.jpg;Марка стали
-C:\Users\dsash\Repository\TableExtraction\table_extraction\ocr_dataset\val\000278.jpg;Относи- тельное удлине- ние
-C:\Users\dsash\Repository\TableExtraction\table_extraction\ocr_dataset\val\000279.jpg;KCV
-C:\Users\dsash\Repository\TableExtraction\table_extraction\ocr_dataset\val\000282.jpg;-
-C:\Users\dsash\Repository\TableExtraction\table_extraction\ocr_dataset\val\000290.jpg;Ст1кп, Ст1кс, Ст1сп, Ст2кп, Ст2пс, Ст2сп, Cт3кп, Ст3пс, Ст3сп, Cт4кп, Ст4пс, Ст4cп, Ст5пс, Ст5сп
-C:\Users\dsash\Repository\TableExtraction\table_extraction\ocr_dataset\val\000293.jpg;+
-C:\Users\dsash\Repository\TableExtraction\table_extraction\ocr_dataset\val\000325.jpg;Ст3пс, Ст3сп, Ст3Гпс, Ст3Гсп
-C:\Users\dsash\Repository\TableExtraction\table_extraction\ocr_dataset\val\000326.jpg;+
-C:\Users\dsash\Repository\TableExtraction\table_extraction\ocr_dataset\val\000327.jpg;+
-C:\Users\dsash\Repository\TableExtraction\table_extraction\ocr_dataset\val\000328.jpg;+
-C:\Users\dsash\Repository\TableExtraction\table_extraction\ocr_dataset\val\000329.jpg;+
-C:\Users\dsash\Repository\TableExtraction\table_extraction\ocr_dataset\val\000336.jpg;+
-C:\Users\dsash\Repository\TableExtraction\table_extraction\ocr_dataset\val\000341.jpg;+
-C:\Users\dsash\Repository\TableExtraction\table_extraction\ocr_dataset\val\000343.jpg;+
-C:\Users\dsash\Repository\TableExtraction\table_extraction\ocr_dataset\val\000381.jpg;1,3+-0,7 - - -
-C:\Users\dsash\Repository\TableExtraction\table_extraction\ocr_dataset\val\000389.jpg;ОНД4  ОНДК18 ОН14ДК24 ОНДКЗ5Т5Б ОНДКЗ5Т5БА  К15Х28БЮ  К23Х31С1  
-C:\Users\dsash\Repository\TableExtraction\table_extraction\ocr_dataset\val\000418.jpg;Механические характеристики
-C:\Users\dsash\Repository\TableExtraction\table_extraction\ocr_dataset\val\000429.jpg;"""От 2 до 3,9 """" 4 """" 10 включ. Св.10 """" 20 """""""
-C:\Users\dsash\Repository\TableExtraction\table_extraction\ocr_dataset\val\000436.jpg;- 29(3)*  29(3)
-C:\Users\dsash\Repository\TableExtraction\table_extraction\ocr_dataset\val\000437.jpg;"""От 2 до 3,9 """" 4 """" 10 включ. Св.  10 """" 20 20 """" """"20 """" 40 """"  """
-C:\Users\dsash\Repository\TableExtraction\table_extraction\ocr_dataset\val\000455.jpg;17 24 23
-C:\Users\dsash\Repository\TableExtraction\table_extraction\ocr_dataset\val\000456.jpg;Толщина полки, мм
-C:\Users\dsash\Repository\TableExtraction\table_extraction\ocr_dataset\val\000463.jpg;Относи- тельное удлине- ние б, %
-C:\Users\dsash\Repository\TableExtraction\table_extraction\ocr_dataset\val\000473.jpg;470(48)
-C:\Users\dsash\Repository\TableExtraction\table_extraction\ocr_dataset\val\000474.jpg;20
-C:\Users\dsash\Repository\TableExtraction\table_extraction\ocr_dataset\val\000478.jpg;29(3) 29(3) 29(3) 
-C:\Users\dsash\Repository\TableExtraction\table_extraction\ocr_dataset\val\000479.jpg;Марка стали
-C:\Users\dsash\Repository\TableExtraction\table_extraction\ocr_dataset\val\000486.jpg;78(8)
-C:\Users\dsash\Repository\TableExtraction\table_extraction\ocr_dataset\val\000487.jpg;39(4)
-C:\Users\dsash\Repository\TableExtraction\table_extraction\ocr_dataset\val\000493.jpg;05.сен
-C:\Users\dsash\Repository\TableExtraction\table_extraction\ocr_dataset\val\000496.jpg;39(4)
-C:\Users\dsash\Repository\TableExtraction\table_extraction\ocr_dataset\val\000503.jpg;29(3)
-C:\Users\dsash\Repository\TableExtraction\table_extraction\ocr_dataset\val\000504.jpg;26-40
-C:\Users\dsash\Repository\TableExtraction\table_extraction\ocr_dataset\val\000507.jpg;-
-C:\Users\dsash\Repository\TableExtraction\table_extraction\ocr_dataset\val\000508.jpg;31-40
-C:\Users\dsash\Repository\TableExtraction\table_extraction\ocr_dataset\val\000513.jpg;39(4)
-C:\Users\dsash\Repository\TableExtraction\table_extraction\ocr_dataset\val\000514.jpg;39(4)
-C:\Users\dsash\Repository\TableExtraction\table_extraction\ocr_dataset\val\000516.jpg;5-9 10-25 26-40
-C:\Users\dsash\Repository\TableExtraction\table_extraction\ocr_dataset\val\000519.jpg;-
-C:\Users\dsash\Repository\TableExtraction\table_extraction\ocr_dataset\val\000524.jpg;31-40
-C:\Users\dsash\Repository\TableExtraction\table_extraction\ocr_dataset\val\000526.jpg;Толщина проката, мм
-C:\Users\dsash\Repository\TableExtraction\table_extraction\ocr_dataset\val\000527.jpg;Предел текус- ти Н/мм (кгс/мм)
-C:\Users\dsash\Repository\TableExtraction\table_extraction\ocr_dataset\val\000546.jpg;5
-C:\Users\dsash\Repository\TableExtraction\table_extraction\ocr_dataset\val\000550.jpg;-
-C:\Users\dsash\Repository\TableExtraction\table_extraction\ocr_dataset\val\000551.jpg;6
-C:\Users\dsash\Repository\TableExtraction\table_extraction\ocr_dataset\val\000554.jpg;-
-C:\Users\dsash\Repository\TableExtraction\table_extraction\ocr_dataset\val\000563.jpg;+0,020 +0,100 +0,050 0,050
-C:\Users\dsash\Repository\TableExtraction\table_extraction\ocr_dataset\val\000586.jpg;100-150 (на многослойных швах)
-C:\Users\dsash\Repository\TableExtraction\table_extraction\ocr_dataset\val\000611.jpg;100-150 (на многослойных швах)
+filename,words
+000001.jpg,Operation
+000009.jpg,FastTransfer upload  
+000011.jpg,
+000015.jpg,RopFastTransfer - SourceGetBuffe Mailbox data encoded into a FastTransfer stream
+000016.jpg,RopSynchronization - GetState RopFastTransfer - SourceGetBuffe  Final ICS state is downloaded as a part of data transmission
+000032.jpg,"MUST NOT ne passed to any ROP other then RoipFastTransferSourceCopyMassages and RopFastTrasferSourceCopyFolder. By setting this flag, message and change identification information is not removed from output"
+000036.jpg,0x00002000
+000037.jpg,"This flag is ignored by any ROPs other then RopFastTransferSourceCopyTo if InpytSreverObject is a message RopFastTransferSourceCopyMessage If set, the server SHOULD output message bodies in their original format. If not set, the server MUST output message bodies in the compressed RTF format."
+000067.jpg,14
+000070.jpg,cSetrials
+000078.jpg,4
+000090.jpg,SegmentHashofData
+000101.jpg,2
+000104.jpg,BYTE[]
+000105.jpg,block hash
+000110.jpg,block hash
+000112.jpg,Offset 0 2 6 10 14 18 26 30 34 34 66 98 106 110 114
+000123.jpg,0x800C
+000126.jpg,DWORD
+000128.jpg,0
+000135.jpg,cSegments
+000136.jpg,4
+000137.jpg,8
+000139.jpg,illOffsetInContent
+000140.jpg,0
+000144.jpg,0x2000000
+000146.jpg,DWORD
+000170.jpg,BYTE[]
+000172.jpg,
+000173.jpg,
+000176.jpg,134
+000177.jpg,SHA-256 hush of the all 512
+000182.jpg,Offset 0 2 6 10 14 18 26 30 34 34 66 98 106 110 114
+000185.jpg,Name
+000187.jpg,0
+000198.jpg,1
+000203.jpg,8
+000208.jpg,8
+000213.jpg,4
+000216.jpg,0x0000000
+000225.jpg,dChunkType
+000226.jpg,0x00
+000229.jpg,DWORD
+000231.jpg,0xCC
+000235.jpg,block hash
+000244.jpg,BYTE[]
+000246.jpg,SHA-256 hash of bytes 0x6000000 through of the content.
+000250.jpg,
+000262.jpg,6.0
+000267.jpg,"No changes to the meaning, language, or formatting of the technical content."
+000273.jpg,Кате- гория
+000274.jpg,Марка стали
+000278.jpg,Относи- тельное удлине- ние
+000279.jpg,KCV
+000282.jpg,-
+000290.jpg,"Ст1кп, Ст1кс, Ст1сп, Ст2кп, Ст2пс, Ст2сп, Cт3кп, Ст3пс, Ст3сп, Cт4кп, Ст4пс, Ст4cп, Ст5пс, Ст5сп"
+000293.jpg,+
+000325.jpg,"Ст3пс, Ст3сп, Ст3Гпс, Ст3Гсп"
+000326.jpg,+
+000327.jpg,+
+000328.jpg,+
+000329.jpg,+
+000336.jpg,+
+000341.jpg,+
+000343.jpg,+
+000381.jpg,"1,3+-0,7 - - -"
+000389.jpg,ОНД4  ОНДК18 ОН14ДК24 ОНДКЗ5Т5Б ОНДКЗ5Т5БА  К15Х28БЮ  К23Х31С1  
+000418.jpg,Механические характеристики
+000429.jpg,"""От 2 до 3,9 """" 4 """" 10 включ. Св.10 """" 20 """""""
+000436.jpg,- 29(3)*  29(3)
+000437.jpg,"""От 2 до 3,9 """" 4 """" 10 включ. Св.  10 """" 20 20 """" """"20 """" 40 """"  """
+000455.jpg,17 24 23
+000456.jpg,"Толщина полки, мм"
+000463.jpg,"Относи- тельное удлине- ние б, %"
+000473.jpg,470(48)
+000474.jpg,20
+000478.jpg,29(3) 29(3) 29(3) 
+000479.jpg,Марка стали
+000486.jpg,78(8)
+000487.jpg,39(4)
+000493.jpg,05.сен
+000496.jpg,39(4)
+000503.jpg,29(3)
+000504.jpg,26-40
+000507.jpg,-
+000508.jpg,31-40
+000513.jpg,39(4)
+000514.jpg,39(4)
+000516.jpg,5-9 10-25 26-40
+000519.jpg,-
+000524.jpg,31-40
+000526.jpg,"Толщина проката, мм"
+000527.jpg,Предел текус- ти Н/мм (кгс/мм)
+000546.jpg,5
+000550.jpg,-
+000551.jpg,6
+000554.jpg,-
+000563.jpg,"+0,020 +0,100 +0,050 0,050"
+000586.jpg,100-150 (на многослойных швах)
+000611.jpg,100-150 (на многослойных швах)
