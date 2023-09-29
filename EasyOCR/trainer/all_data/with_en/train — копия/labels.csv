@@ -1,0 +1,435 @@
+filename,words
+000002.jpg,Initialization
+000003.jpg,Data transmission
+000004.jpg,Checkpointing
+000005.jpg,FastTransfer download
+000006.jpg,RopFastTransfer - StrialCopy* RopTellVersion
+000007.jpg,RopFastTransfer - SourceGetBuffe r Mailbox data encoded into a FastTransfer stream
+000008.jpg,
+000010.jpg,RopFastTransfer - DestinationPutB uffer Mailbox data encoded into a FastTransfer stream
+000012.jpg,ICS download
+000013.jpg,RopSynchronization - Configure - UploadStateStre am*
+000014.jpg,RopFastTransfer - DestinationConf igure RopTellVersion
+000017.jpg,ICS upload
+000018.jpg,RopSynchronization - OpenCollector - UploadStateStre am*
+000019.jpg,RopSynchronization - Import* ROPs that optrial on a message object.
+000020.jpg,RopSynchronization - GetState RopFastTransfer - SourceGetBu ffer
+000021.jpg,Move
+000022.jpg,0x00000001
+000023.jpg,"MUST NOT be passed if InputServerObject is not a folder or a message. If this flag is set, the client identifies the FastTransfer operation being configured as a logical part of a larger object move operation. If this flag is specified for a download operation, the server SHOULD NOT output any objects in a"
+000024.jpg,
+000025.jpg,
+000026.jpg,FastTransfer stream that the client does not have permissions to delete. See 3.2.4.4.1 for more server details.
+000027.jpg,CopySubfolders
+000028.jpg,0x00000010
+000029.jpg,"MUST NOT be passed to any ROP other than RopFastTransferSourceCopyFolder. This flag identifies whether subfolders of a folder specified in InputServerObject, MUST be recursively included into the scope."
+000030.jpg,SendEntryId
+000031.jpg,0x00000020  
+000033.jpg,0x0trial00
+000034.jpg,This flag is ignored. Clients MUST use SendOption Recover Mode instead.
+000035.jpg,BestBody
+000038.jpg,RecoverMode
+000039.jpg,Unicode
+000040.jpg,0x01
+000041.jpg,"See the following table for all possible combinations of encoding flags. When used on RopSynchronizationConfigure, MUST match the value of the Unicode SynchronizationFlag (as specified in section 2.2.3.2.1.1.2)."
+000042.jpg,Offset
+000043.jpg,Size
+000044.jpg,Type  
+000045.jpg,Name
+000046.jpg,Value
+000047.jpg,0
+000048.jpg,2
+000049.jpg,4
+000050.jpg,2
+000051.jpg,WORD
+000052.jpg,Version
+000053.jpg,0x100
+000054.jpg,DWORD
+000055.jpg,dwHashAlgo
+000056.jpg,0x800C
+000057.jpg,6
+000058.jpg,4
+000059.jpg,DWORD
+000060.jpg,dwOffsetInFirstSegment
+000061.jpg,0
+000062.jpg,10
+000063.jpg,4
+000064.jpg,DWORD
+000065.jpg,dwReadBytesInLastSegment
+000066.jpg,0
+000068.jpg,4
+000069.jpg,DWORD
+000071.jpg,1
+000072.jpg,18
+000073.jpg,8
+000074.jpg,ULONGLONG
+000075.jpg,ullOftriInContent
+000076.jpg,0
+000077.jpg,26
+000079.jpg,DWORD
+000080.jpg,cbSegment
+000081.jpg,128000
+000082.jpg,30
+000083.jpg,4
+000084.jpg,trial
+000085.jpg,cbBlockSize
+000086.jpg,0x10000
+000087.jpg,34
+000088.jpg,32
+000089.jpg,BYTE[]
+000091.jpg,SHA-256 hash of the 2 content (2) block hashes.
+000092.jpg,66
+000093.jpg,32
+000094.jpg,trial]
+000095.jpg,SegmentSecret
+000096.jpg,"SHA-256 hash of segment hash of data and ""no more secrets""."
+000097.jpg,98
+000098.jpg,4
+000099.jpg,DWORD
+000100.jpg,cBlocks
+000102.jpg,102
+000103.jpg,32
+000106.jpg,SHA-256 hash of the first 64- kilobyte block of the content. 
+000107.jpg,134
+000108.jpg,32
+000109.jpg,BYTE[]
+000111.jpg,SHA-256 hash of the last
+000113.jpg,Size
+000114.jpg,Type  
+000115.jpg,Name
+000116.jpg,Value
+000117.jpg,2
+000118.jpg,WORD
+000119.jpg,Version
+000120.jpg,0x100
+000121.jpg,DWORD
+000122.jpg,dwHashAlgo
+000124.jpg,4
+000125.jpg,4
+000127.jpg,dwOffsetInFirstSegment
+000129.jpg,4
+000130.jpg,DWORD
+000131.jpg,dwReadBytesInLastSegment
+000132.jpg,0x1000000
+000133.jpg,4
+000134.jpg,DWORD
+000138.jpg,ULONGLONG
+000141.jpg,4
+000142.jpg,trial
+000143.jpg,cbSegment
+000145.jpg,4
+000147.jpg,cbBlockSize
+000148.jpg,0x10000
+000149.jpg,32
+000150.jpg,BYTE[]
+000151.jpg,SegmentHashofData
+000152.jpg,SHA-256 hash of the all 512 content block hashes for the first segment.
+000153.jpg,32
+000154.jpg,BYTE[]
+000155.jpg,SegmentSecret
+000156.jpg,"SHA-256 hash of segment hash of data and ""no more secrets""."
+000157.jpg,8
+000158.jpg,ULONGLONG
+000159.jpg,ullOffsetInContent
+000160.jpg,0x2000000
+000161.jpg,4
+000162.jpg,DWORD
+000163.jpg,cbSegment
+000164.jpg,0x2000000
+000165.jpg,4
+000166.jpg,DWORD
+000167.jpg,cbBlockSize
+000168.jpg,0x10000
+000169.jpg,32
+000171.jpg,SegmentHashofData
+000174.jpg,
+000175.jpg,
+000178.jpg,32
+000179.jpg,BYTE[]
+000180.jpg,block hash
+000181.jpg,"SHA-256 hash of the last 62,464 bytes of the content."
+000183.jpg,Size
+000184.jpg,Type  
+000186.jpg,Value
+000188.jpg,1
+000189.jpg,BYTE
+000190.jpg,bMinorVersion
+000191.jpg,1
+000192.jpg,1
+000193.jpg,BYTE
+000194.jpg,bMajorVersion
+000195.jpg,0x02
+000196.jpg,0x00
+000197.jpg,2
+000199.jpg,BYTE
+000200.jpg,bHashAlgo
+000201.jpg,0x04
+000202.jpg,3
+000204.jpg,ULONGLONG
+000205.jpg,ullStatrInContent
+000206.jpg,0x0000000000000000
+000207.jpg,11
+000209.jpg,ULONGLONG
+000210.jpg,ullIndexOfFirstSegment
+000211.jpg,0x0000000000000000
+000212.jpg,19
+000214.jpg,DWORD
+000215.jpg,dwOffsetInFirstSegment
+000217.jpg,23
+000218.jpg,8
+000219.jpg,ULONGLONG
+000220.jpg,ullLengthOfRange
+000221.jpg,0x000000000002F400
+000222.jpg,31
+000223.jpg,1
+000224.jpg,BYTE
+000227.jpg,32
+000228.jpg,4
+000230.jpg,dwChunkDataLength
+000232.jpg,49470
+000233.jpg,32
+000234.jpg,BYTE[]
+000236.jpg,SHA-256 hash of bytes 0x5FF0000 through 0x6000000 of the content.
+000237.jpg,448
+000238.jpg,49506
+000239.jpg,49502
+000240.jpg,4
+000241.jpg,DWORD
+000242.jpg,cBlocks
+000243.jpg,32
+000245.jpg,block hash
+000247.jpg,-
+000248.jpg,
+000249.jpg,
+000251.jpg,
+000252.jpg,64322
+000253.jpg,32
+000254.jpg,BYTE[]
+000255.jpg,block hash
+000256.jpg,SHA-256 hash of bytes of the 0x7BF0000 through 0x7C00000 content.
+000257.jpg,5/15/2014 6/30/2015 10/16/2015 7/14/2016 6/1/2017
+000258.jpg,5.0
+000259.jpg,None
+000260.jpg,"to the meaning, language, or formatting of the technical content."
+000261.jpg,6.0
+000263.jpg,Major
+000264.jpg,Significantly changed the technical content.
+000265.jpg,6.0
+000266.jpg,None
+000268.jpg,None
+000269.jpg,"No changes to the meaning, language, or formatting of the technical content."
+000270.jpg,6.0
+000271.jpg,None
+000272.jpg,"No changes to the meaning, language, or formatting of the technical content."
+000275.jpg,Химичес- кий состав
+000276.jpg,Времен- ное со-против- ление
+000277.jpg,Предел текучес- ти
+000281.jpg,1
+000283.jpg,+
+000284.jpg,-
+000285.jpg,+
+000286.jpg,Ст0
+000291.jpg,-
+000292.jpg,+
+000294.jpg,+
+000298.jpg,"Ст6пс, Ст6сп"
+000299.jpg,-
+000300.jpg,+
+000301.jpg,+
+000302.jpg,+
+000306.jpg,2
+000307.jpg,"Ст3кп, Ст3пс, Ст3сп, Ст3Гпс, Ст4кп, Ст4пс, Ст4сп, Ст5пс, Ст5сп, Ст5Гпс"
+000308.jpg,+
+000309.jpg,+
+000310.jpg,+
+000311.jpg,+
+000314.jpg,- -
+000324.jpg,5
+000334.jpg,+
+000335.jpg,+
+000337.jpg,+
+000342.jpg,+
+000345.jpg,"Изгиб до парал лельности стор- (a - толщина разца, d - ди метр оправки) для проката то щин, мм"
+000348.jpg,+
+000374.jpg,Порядок величины 
+000375.jpg,Al
+000376.jpg,Cu
+000377.jpg,Ag
+000378.jpg,мкОм-см/% (ат.) мкОм-см/% (ат.)  10-7 мкОм см / см2/см3 10-13 мкОм см / см2/см3
+000379.jpg,"2,2 4,0 13,5 10,0"
+000380.jpg,"1,6 2,5 31,2 1,0"
+000382.jpg,"1,5+0 - 35,0 -"
+000384.jpg,"0,95 0,85 0,80 1,0 0,9 0,60"
+000385.jpg,"1,2 1,6 2 4,4 80 44"
+000386.jpg,Сплав
+000390.jpg,"13,5 Al, 24,5 Ni, 3,5 Cu 9,5 Al, 18,5 Ni, 3,5 Cu, 18,5 Co, 8 Al, 14 Ni, 3 Cu, 24 Co 7 Al, 14,5 Ni, 3,5 Cu, 35 Co, 1 Nb, 5 Ti Тот Же сплав, но cо столбчатой кристллизацией  15 Co, 28 Cr, 1 Nb, 1 Al, 23 Co, 31 Cr, 1 Si  "
+000391.jpg,Нормируемая характеристика
+000402.jpg,
+000403.jpg,+
+000405.jpg,
+000406.jpg,-20 -40 -60
+000407.jpg,
+000414.jpg,
+000417.jpg,"Толщина листа, мм"
+000421.jpg,"От 2 до 3,9 "" 4 "" 20 включ. Св. 20 "" 40 "" 40 "" 100 "" 100"
+000422.jpg,"""- - - - -"
+000423.jpg,235(24) 235(24) 235(23) 225(23) 215(22) 195(20)
+000424.jpg,360(37) 360(37) 360(37) 360(37) 360(37)
+000425.jpg,20 26 26 24 24
+000426.jpg,"d = a d = 1,5a d = 2,0a d = 2,0a d = 2,5a"
+000427.jpg,- - - - -
+000428.jpg,- - - - -
+000430.jpg,245(25) 245(25) 245(25)
+000431.jpg,380(39) 380(39) 370(38) 370(38)
+000432.jpg,20 25 25 25
+000433.jpg,"d = a d = 1,5a d = 1,5a"
+000434.jpg,- - -
+000435.jpg,- - -
+000438.jpg,255(26) 245(25) 245(25) 235(24)
+000440.jpg,"d = 1,5a d = 1,5a d = 1,5a d = 2,0a"
+000441.jpg,- - - -
+000442.jpg,- - - -
+000443.jpg,- 29(3)* 29(3) 29(3)
+000444.jpg,"От 2 до 3,9 "" 4 "" 10 включ. Св. 10 "" 20 """
+000445.jpg,275(28) 275(28) 265(27)
+000446.jpg,380(39) 380(39) 370(38)
+000447.jpg,18 24 23
+000448.jpg,- - -
+000449.jpg,- - -
+000450.jpg,- - -
+000451.jpg,- 29(3)* 29(3)
+000452.jpg,"От 2 до 3,9 "" 4 "" 10 включ. Св. 10 "" 20 """
+000453.jpg,285(29) 275(28) 265(27)
+000454.jpg,390(40) 390(40) 380(39)
+000457.jpg,Механические характеристики
+000458.jpg,- 29(3) 29(3)
+000459.jpg,- - -
+000460.jpg,'- - -
+000461.jpg,- 29(3)* 29(3)
+000462.jpg,"Изгиб до параллель ности сторон (а- толщина образца, d - диаметр оправки)"
+000464.jpg,
+000465.jpg,не менее
+000466.jpg,345(35) 325(33) 305(31)
+000467.jpg,490(50) 470(48) 460(47)
+000468.jpg,21 21 21
+000469.jpg,d = 2a d = 2a d = 2a
+000471.jpg,29(3) 29(3) 29(3)
+000472.jpg,345(35)
+000475.jpg,d = 2a
+000476.jpg,"39(4,0)  "
+000477.jpg,-
+000480.jpg,"Толщина проката, мм"
+000481.jpg,"Ударная вязкость KCU, Дж/см (кгс м/см)"
+000482.jpg,Марка стали
+000483.jpg,"Толщина проката, мм"
+000488.jpg,39(4) 29(3) 
+000489.jpg,не менее
+000490.jpg,"Ст3пс, Ст3сп  "
+000491.jpg,5-9 10-25
+000492.jpg,Ст3Гсп 
+000494.jpg,78(8)
+000495.jpg,39(4)
+000497.jpg,69(7)
+000498.jpg,29(3)
+000499.jpg,Ст3Гсп 
+000500.jpg,10-30 31-40
+000501.jpg,69(7)
+000502.jpg,29(3)
+000505.jpg,49(5)
+000506.jpg,-
+000509.jpg,49(5)
+000510.jpg,Ст3Гпс
+000511.jpg,5-9
+000512.jpg,78(8)
+000515.jpg,"Ст4пс, Ст4сп"
+000517.jpg,78(8) 59(6) 39(4)
+000518.jpg,-
+000520.jpg,10-30
+000521.jpg,69(7)
+000522.jpg,29(3)
+000523.jpg,29(3)
+000525.jpg,49(5)
+000528.jpg,"Ударная вязкость KCU, Дж/см (кгс м/см)"
+000529.jpg,
+000530.jpg,
+000531.jpg,"Изгиб до параллель ности сторон (а- толщина образца, d - диаметр оправки)"
+000532.jpg,при температуре минус 40 С
+000533.jpg,после мезани- ческого старения
+000534.jpg,не менее
+000535.jpg,До 20 21-40
+000536.jpg,430 (40) 295(30) 16
+000537.jpg,39(4)
+000538.jpg,29(3)
+000539.jpg,d=4a
+000540.jpg,d=5a
+000541.jpg,Категория
+000542.jpg,"Толщина проката, мм"
+000543.jpg,"Ударная вязкость KCV, Дж/см (кгс м/см), при температуре, C"
+000544.jpg,плюс 20
+000545.jpg,0
+000547.jpg,5-20
+000548.jpg,-
+000549.jpg,Св.20
+000552.jpg,8-9 10-20 Св. 20
+000553.jpg,"34 (3,5)"
+000555.jpg,"34 (3,5)"
+000556.jpg,"30 (3,1) -"
+000557.jpg,"Предельное отклонение по массовой доле элементов, % в прокате из стали"
+000558.jpg,"Предельное отклонение по массовой доле элементов, % в прокате из стали"
+000559.jpg,С235
+000560.jpg,С245 - С285 С345 - С590К
+000561.jpg,"- +0,050 - -"
+000562.jpg,"- +0,050 -0,030 +0,030 -0,020"
+000564.jpg,Никель Медь Сера Фосфор Азот Ванадий
+000565.jpg,"- - +0,006 +0,006 - -"
+000566.jpg,"0,125"
+000570.jpg,xxx53 xxx20
+000572.jpg,xxx30  
+000573.jpg,xxx23 xxx15  
+000575.jpg,xxx15  Добавлен кремний  
+000576.jpg,xxx09
+000577.jpg,Расширенный интервал содержания углерода
+000578.jpg,Добавлена медь
+000582.jpg,"Сталь Толщина стенки изделия, мм  "
+000583.jpg,"Температура подогрева, С"
+000584.jpg,
+000585.jpg,"Низкоуглеродистая, до 0,22 % С > 100 Среднеуглеродистая, до 0,45 % С >60  "
+000587.jpg,100-250 250-400  
+000588.jpg,Высокоуглеродистая -  Низколегированная  >30  
+000589.jpg,150-200
+000591.jpg,150 200
+000592.jpg,Символ AISI xxxl xxxS xxxN xxxLN
+000596.jpg,"Низкое содержание угле-  роlа (< 0,03 % + добавлен азот"
+000597.jpg,xxx23 xxx15  
+000598.jpg,Добавлен селен  Добавлен кремний  
+000599.jpg,xxx15  Добавлен кремний  
+000600.jpg,xxx09
+000601.jpg,Расширенный интервал содержания углерода 
+000602.jpg,xxx30  
+000603.jpg,Добавлена медь
+000606.jpg,15ГС (трубная)* Отпуск при 635-660 C при толщине стенки свыше 30 мм
+000607.jpg,"Сталь Толщина стенки изделия, мм"
+000608.jpg,"Температура подогрева, С"
+000609.jpg,
+000610.jpg,>100 >60
+000612.jpg,100-250 250-400
+000613.jpg,Высокоуглеродистая Низколегированная
+000614.jpg,150-200
+000615.jpg,до 350
+000616.jpg,150 200
+000617.jpg,400 
+000618.jpg,350 
+000619.jpg,"- - - - - - - - 34,7 38,3"
+000620.jpg,300 
+000621.jpg,"- - - - - 41,5 - - 33,6 37,5"
+000622.jpg,250 
+000623.jpg,"- - - - 29,8 31,0 31,1 33,4 33,2 36,4"
+000624.jpg,200 
+000625.jpg,"25,2 26,5 33,0 36,3 29,8 30,8 30,7 32,4 32,7 35,3"
+000626.jpg,150 
+000627.jpg,"25,2 26,5 32,1 34,7 29,5 30,6 30,2 31,5 32,0 34,0"
+000629.jpg,100 
+000630.jpg,"24,5 26,4 31,3 33,0 29,3 30,5 29,8 30,7 31,3 32,7"
+000631.jpg,50 
+000632.jpg,"23,8 25,5 30,4 31,3 28,6 29,8  29,4 29,8  30,7 31,2 "
+000633.jpg,0
