@@ -150,7 +150,7 @@ class OCRDataset(Dataset):
         print("csv path", os.path.join(root,'labels.csv')) # DEBUG
         print("exist" if os.path.isfile(os.path.join(root,'labels.csv')) else "not found")
 
-        self.df = pd.read_csv(os.path.join(root,'labels.csv'), sep=',', engine='python', usecols=['filename', 'words'], keep_default_na=False)
+        self.df = pd.read_csv(os.path.join(root,'labels.csv'), sep=';', engine='python', usecols=['filename', 'words'], keep_default_na=False)
         self.nSamples = len(self.df)
 
         if self.opt.data_filtering_off:
