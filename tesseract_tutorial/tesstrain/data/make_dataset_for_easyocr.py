@@ -34,7 +34,7 @@ for filename in os.listdir(input_folder):
                 img.save(output_path, 'JPEG')
 
                 data = train_data if random_num > validation_percent else val_data
-                data['filename'].append(filename)
+                data['filename'].append(filename.replace('.tif', '.jpg'))
 
                 with open(text_file_path, 'r', encoding='utf-8') as text_file:
                     text = text_file.read()
