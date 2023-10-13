@@ -8,6 +8,7 @@ from infer_utils import get_outputs
 from torchvision.transforms import transforms as transforms
 from class_names import INSTANCE_CATEGORY_NAMES as class_names
 
+
 def get_bboxes_of_objects(input, weights, threshold):
     # Initialize the model
     model = torchvision.models.detection.maskrcnn_resnet50_fpn_v2(
@@ -44,5 +45,12 @@ def get_bboxes_of_objects(input, weights, threshold):
     image = image.unsqueeze(0).to(device)
 
     masks, boxes, labels = get_outputs(image, model, threshold)
+    print(boxes, labels)
+    print(len(boxes), len(labels))
 
     return masks, boxes, labels
+
+input = "input/inference_data/test_10.jpg"
+weights = "weights/table_plot.pth"
+threshold = 0.8
+get_bboxes_of_objects = get_bboxes_of_objects(input, weights, threshold)
