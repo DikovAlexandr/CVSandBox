@@ -27,7 +27,7 @@ if not os.path.exists(output_directory):
 
 random.shuffle(lines)
 
-count = 2500
+count = 2000
 
 lines = lines[:count]
 
