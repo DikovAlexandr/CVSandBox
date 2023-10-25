@@ -1,4 +1,5 @@
 import os
+import re
 import random
 import pathlib
 import subprocess
@@ -26,15 +27,14 @@ if not os.path.exists(output_directory):
 
 random.shuffle(lines)
 
-count = 5000
+count = 2500
 
 lines = lines[:count]
 
 line_count = 0
 for line in lines:
     num_lines = random.randint(1, 4)
-    lines_list = [line] * num_lines
-    multi_line_text = '\n'.join(lines_list)
+    multi_line_text = re.sub(r' ', '\n', line, num_lines)
 
     training_text_file_name = pathlib.Path(training_text_file).stem
     print (training_text_file_name)
