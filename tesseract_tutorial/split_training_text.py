@@ -20,28 +20,27 @@ with open(training_text_file, 'r', encoding='utf-8') as input_file:
     for line in input_file.readlines():
         lines.append(line.strip())
 
-output_directory = 'Multiline_dataset'
+output_directory = 'MiltiLines'
 
 if not os.path.exists(output_directory):
     os.mkdir(output_directory)
 
 random.shuffle(lines)
 
-count = 2000
+count = 1000
 
 lines = lines[:count]
 
 line_count = 0
 for line in lines:
     num_lines = random.randint(1, 4)
-    multi_line_text = re.sub(r' ', '\n', line, num_lines)
+    multi_line_text = line #re.sub(r' ', '\n', line, num_lines)
 
     training_text_file_name = pathlib.Path(training_text_file).stem
     print (training_text_file_name)
     line_training_text = os.path.join(output_directory, f'{training_text_file_name}_{line_count}.gt.txt')
-
     with open(line_training_text, 'w', encoding='utf-8') as output_file:
-        output_file.writelines([multi_line_text])
+        output_file.writelines([line])
 
     file_base_name = f'rus_{line_count}'
 
@@ -55,7 +54,7 @@ for line in lines:
         '--strip_unrenderable_words',
         '--leading=10',
         '--xsize=1000',
-        '--ysize=200',
+        '--ysize=100',
         '--margin=10',
         '--ptsize=6',
         '--char_spacing=0.0',

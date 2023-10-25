@@ -3,7 +3,7 @@ import random
 from PIL import Image
 import pandas as pd
 
-input_folder = "Multiline_dataset"
+input_folder = "Literaturnaya-ground-truth"
 output_folder = "result"
 
 validation_percent = 20
