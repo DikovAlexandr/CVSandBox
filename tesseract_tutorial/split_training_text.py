@@ -48,7 +48,7 @@ for line in lines:
         # print (training_text_file_name)
         line_training_text = os.path.join(output_directory, f'{training_text_file_name}_{line_count}.gt.txt')
         with open(line_training_text, 'w', encoding='utf-8') as output_file:
-            output_file.writelines([multi_line_text])
+            output_file.writelines([line])
 
         file_base_name = f'rus_{line_count}'
 
